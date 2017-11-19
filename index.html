@@ -3,11 +3,12 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <title>About Me</title>
-
+	<meta charset="UTF-8">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 
 </head>
 
@@ -16,7 +17,7 @@
 	<div class= "container">
 		<!-- Navbar contains responsive links to the homepage, about, contact, and portfolio tabs. -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  			<a class="navbar-brand" href="https://thecarlliu.github.io/Bootstrap-Portfolio"><h1>Carl Liu</h1></a>
+  			<a class="navbar-brand" href="https://thecarlliu.github.io/Bootstrap-Portfolio"><h2>Carl Liu</h2></a>
   			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
@@ -40,8 +41,8 @@
 		<!-- Row 0 is the row for the entire content area space. -->
 		<div class= "row row0 contentArea">
 			<!-- Supercolumn 1 represents the main section on the left. -->
-			<div class= "col-md-8 supercol1 mainSection">
-				<h2>About Me</h2>
+			<div class= "col-sm-8 supercol1 mainSection">
+				<h3>About Me</h3>
 				<br>
 				<img id= "profilePic" src= "../Bootstrap-Portfolio/assets/images/profilePic.jpg" width= "200" height ="200" alt="profilePic">
 				<p>Welcome to my Basic Portfolio. I was born on October 3rd, 1996 in Newport Beach, California. Since then, I've moved to Germany, lived in Massachusetts, and attended highschool at Proctor Academy in Andover, New Hampshire. Currently, I study at Macalester College in Saint Paul, Minnesota for a degree in Computer Science. Meanwhile, I decided to take a gap year in order to receive an education on full stack web development, a field that Macalester doesn't really cover, through which I hope to develop useful skills that will aid me in my career. My goal is to become a game designer/artist.</p>
@@ -49,23 +50,31 @@
 			</div>
 
 			<!-- Supercolumn 2 represents the space reserved for the sideBar, which consists of 2 rows and 3 columns in the second row, 1 for each responsive Icon. -->
-			<div class= "col-md-4 supercol2 sideBar">
+			<div class= "col-sm-3 supercol2 sideBar">
 				<div class= "row supercol2row1 sideBarHeader">
 					<h4>Connect with me</h4>
 				</div>
 				<div class= "row supercol2row2 sideBarIcons">
-					<div class= "col-md-4 supercol2row2col1 gitHubIcon">
+					<div class= "col-4 supercol2row2col1 gitHubIcon">
 						<a href= "https://thecarlliu.github.io" target="_blank"><img class= "icon gitHubIcon" src="../Bootstrap-Portfolio/assets/images/gitHubIcon.png"></a>
 					</div>
-					<div class= "col-md-4 supercol2row2col2 stackOverflowIcon">
+					<div class= "col-4 supercol2row2col2 linkedInIcon">
 						<a href= "https://linkedin.com/in/thecarlliu" target="_blank"><img class= "icon linkedInIcon" src="../Bootstrap-Portfolio/assets/images/linkedInIcon.png"></a>
 					</div>
-					<div class= "col-md-4 supercol2row2col3 linkedInIcon">
+					<div class= "col-4 supercol2row2col3 stackOverflowIcon">
 						<a href= "https://stackoverflow.com/story/thecarlliu" target="_blank"><img class= "icon stackOverflowIcon" src="../Bootstrap-Portfolio/assets/images/stackOverflowIcon.png">
 					</div>
 				</div>
 			</div>
 
+		</div>
+
+		<div class= "row row9 footer">
+			<div class= "footerBackground">
+				<div class= "footer">
+					<a id= "copyright">©Copyright 2017 Carl Liu</a>
+				</div>
+			</div>
 		</div>
 
 	</div>

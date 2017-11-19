@@ -1,0 +1,99 @@
+.navbar-brand {
+	font-family: Century Gothic;
+}
+
+h2 {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	background-color: #6bdbcf;
+}
+
+h3 {
+	font-family: Century Gothic;
+	color: white;
+}
+
+h4 {
+	font-family: Century Gothic;
+	color: white;
+}
+
+h5 {
+	font-family: Century Gothic;
+	color: grey;
+}
+
+.container {
+	position: relative;
+	background-color: grey;
+}
+
+.mainSection {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	line-height: 2;
+	position: relative;
+	background-color: #6bdbcf;
+}
+
+#profilePic {
+	float: left;
+	margin-right: 20px;
+}
+
+.sideBar {
+	position: relative;
+	margin-left: 20px;
+	background-color: #6bdbcf;
+}
+
+.sideBarHeader {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.sideBarIcons {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.gitHubIcon {
+	width: 70px;
+	height: 70px;
+}
+
+.linkedInIcon {
+	width: 70px;
+	height: 70px;
+}
+
+.stackOverflowIcon {
+	width: 70px;
+	height: 70px;
+}
+
+.footerBackground {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	width: 100%;
+	height: 45px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: #6BDBCF;
+	font-size: 10px;
+}
