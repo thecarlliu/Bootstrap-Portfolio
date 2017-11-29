@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+	<!-- Row 00 represents the row for the area preceding the content area that the navbar will occupy. -->
+	<div class= "row row00 navBarArea">
+		<!-- Navbar contains responsive links to the homepage, about, contact, and portfolio tabs. -->
+		<nav class= "navbar navbar-expand-lg navbar-light bg-light">
+			<div class= "navHomeTab">
+	  			<a class="navbar-brand" href="https://thecarlliu.github.io/Bootstrap-Portfolio">
+	  				<div class= "myName"><p>Carl Liu</p></div></a>
+	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+	  		</div>
+
+	  		<div class="collapse navbar-collapse navbar-right" id="navbarSupportedContent">
+	    		<ul class="nav navbar-nav navTabs">
+	     			<li class="nav-item active">
+	        			<a class="nav-link" href="https://thecarlliu.github.io/Bootstrap-Portfolio/index.html"><p>About</p> <span class="sr-only">(current)</span></a>
+	      			</li>
+				    <li class="nav-item">
+				    	<a class="nav-link" href="https://thecarlliu.github.io/Bootstrap-Portfolio/contact.html"><p>Contact</p></a>
+				      </li>
+				    <li class="nav-item">
+				        <a class="nav-link" href="https://thecarlliu.github.io/Bootstrap-Portfolio/portfolio.html"><p>Portfolio</p></a>
+				    </li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Row 0 is the row for the entire content area space. -->
+	<div class= "row row0 contentArea">
+
+		<!-- Supercolumn 1 represents the main section on the left. -->
+		<div class= "col-md-8 supercol1">
+			<div class= "mainSection">
+				<!-- Shows Contact header, Name form, Email form and Message form + Submit Button -->
+				<h2 class= "headers">Contact</h2>
+				<br>
+				<form>
+					<div class="form-group nameBox">
+					    <label class="col-form-label" for="formGroupExampleInput">Name</label>
+					    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ex: John Smith">
+					</div>
+					<div class="form-group emailBox">
+				    	<label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+					<div class="form-group messageBox">
+					    <label for="exampleFormControlTextarea1">Message Box</label>
+					    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary submitButton">Submit</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- Supercolumn 2 represents the space reserved for the sideBar, which consists of 2 rows and 3 columns in the second row, 1 for each responsive Icon. -->
+		<div class= "col-md-4 supercol2">
+			<div class= "sideBar">
+				<div class= "row supercol2row1 sideBarHeader">
+					<h3 class= "headers">Connect with me</h4>
+				</div>
+				<div class= "row supercol2row2 sideBarIcons">
+					<div class= "col-4 supercol2row2col1 gitHubIcon">
+						<a href= "https://thecarlliu.github.io" target="_blank"><img class= "icon gitHubIcon" src="../Bootstrap-Portfolio/assets/images/gitHubIcon.png"></a>
+					</div>
+					<div class= "col-4 supercol2row2col2 linkedInIcon">
+						<a href= "https://linkedin.com/in/thecarlliu" target="_blank"><img class= "icon linkedInIcon" src="../Bootstrap-Portfolio/assets/images/linkedInIcon.png"></a>
+					</div>
+					<div class= "col-4 supercol2row2col3 stackOverflowIcon">
+						<a href= "https://stackoverflow.com/story/thecarlliu" target="_blank"><img class= "icon stackOverflowIcon" src="../Bootstrap-Portfolio/assets/images/stackOverflowIcon.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class= "row row9 footer">
+		<div class= "footerBackground">
+			<div class= "footer">
+				<a id= "copyright">©Copyright 2017 Carl Liu</a>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
